@@ -1,0 +1,356 @@
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    body{
+        font-family:  Hanken Grotesk;
+        margin: auto;
+    }
+
+    .top{
+        background-color:hsl(241, 81%, 54%);
+        height: 350px;
+        border: solid 0px;
+        border-radius: 0px 0px 30px 30px;
+       
+    }
+
+
+    .first{
+        text-align: center;
+        color: hsl( 241, 100%, 89%);
+        padding: 25px;
+        font-weight: 700;
+    }
+
+    .ff{
+        text-align: center;
+        background-color: hsla(241, 72%, 46%, 1);
+        width: 150px;
+        height: 150px;
+        margin: auto;
+        border-radius: 100px ;
+    }
+
+    
+    .second{
+        color: white;
+        font-weight: 700;
+        font-size: 50px;
+        position: relative;
+        top: 28px;
+    }
+
+    .inside{
+        color: hsl(241, 100%, 70%);
+        font-size: 18px;
+        text-align: center;
+        
+    }
+
+    .third{
+        text-align: center;
+        margin-top: 20px;
+        color: white;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .fourth{
+        color: hsl( 241, 100%, 89%) ;
+        padding:0 40px;
+        margin-top: 10px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .summary{
+        margin-top: 20px;
+        font-weight: 700;
+    }
+
+    .bottom{
+     padding: 20px;  
+    }
+
+    .row1{
+        background-color: hsl(0, 100%, 95%);
+        margin: 15px 0;
+        padding: 10px;
+        border: solid none;
+        border-radius: 6px;
+    }
+
+    .re{
+        float: right;
+        font-weight: 600;
+
+    }
+
+    .main1{
+        color: hsl(0, 100%, 67%);
+        font-weight: 600;
+        
+    }
+
+    .sub{
+        font-weight: 600;
+        font-size: 15px;
+        opacity: 0.5;
+    }
+
+    .row2{
+        background-color: hsl(39, 100%, 90%);
+        margin: 15px 0;
+        padding: 10px;
+        border: solid none;
+        border-radius: 6px;
+    }
+
+    .main2{
+        color: hsl(39, 100%, 56%);
+        font-weight: 600;
+        
+    }
+
+    .row3{
+        background-color:hsl(166, 100%, 95%);
+        margin: 15px 0;
+        padding: 10px;
+        border: solid none;
+        border-radius: 6px;
+    }
+
+    .main3{
+        color:hsl(166, 100%, 37%);
+        font-weight: 600;
+        margin-right: 150px;
+    }
+
+    .row4{
+        background-color: hsl(234, 85%, 95%);
+        margin: 15px 0;
+        padding: 10px;
+        border: solid none;
+        border-radius: 6px;
+    }
+
+    .main4{
+        color:hsl(234, 85%, 45%);
+        font-weight: 600;
+        margin-right: 150px;
+    }
+
+    .button{
+        color: white;
+        padding: 13px 80px;
+        background-color: hsl(224, 30%, 27%);
+        border: none;
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .button:hover{
+        background-color:hsl(241, 81%, 54%);
+    }
+
+    .btn{
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .icon{
+        float: left;
+        margin-right: 10px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1440px) {
+   
+    body{
+        font-family:  Hanken Grotesk;
+        margin: auto;
+    }
+
+    .whole{                
+        border: none;
+        border-radius:20px ;
+        width: 700px;
+        height: 450px;
+        margin: auto;
+        box-shadow: 0px 0px 1px 0px  black;
+        padding: 10px;
+    }
+
+    .cc{
+        margin-top: 10%;
+    }
+
+    .top{
+        background-color:hsl(241, 81%, 54%) ;
+        height: 450px;
+        width: 300px;
+        border: solid 0px;
+        border-radius: 30px;       
+    }
+
+
+    .first{
+        text-align: center;
+        color: hsl( 241, 100%, 89%);
+        padding: 30px;
+        font-weight: 700;
+    }
+
+    .ff{
+        text-align: center;
+        background-color: hsla(241, 72%, 46%, 1);
+        width: 170px;
+        height: 170px;
+        margin: auto;
+        border-radius: 100px ;
+    }
+
+    
+    .second{
+        color: white;
+        font-weight: 700;
+        font-size: 60px;
+        position: relative;
+        top: 35px;
+    }
+
+    .inside{
+        color: hsl(241, 100%, 70%);
+        font-size: 18px;
+        text-align: center;
+        
+    }
+
+    .third{
+        text-align: center;
+        
+        margin-top: 40px;
+        color: white;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .fourth{
+        color: hsl( 241, 100%, 89%) ;
+        padding:0 40px;
+        margin-top: 20px;
+        font-weight: 500;
+        text-align: center;     
+    }
+
+    .bottom{
+        background-color: white;
+        width: 300px; 
+        position: relative; 
+        bottom: 420px;
+        left: 300px;
+        margin-left: 20px;
+    }
+    
+    .summary{  
+        font-weight: 700;
+        font-size: 19px;
+        margin-bottom :30px;  
+        margin-top: 24px;
+    }
+
+    .row1{
+        background-color: hsl(0, 100%, 95%);
+        margin: 23px 0;
+        padding: 11px;
+        border: solid none;
+        border-radius: 6px;
+    }
+
+    .re{
+        float: right;
+        font-weight: 600;
+    }
+
+    .main1{
+        color: hsl(0, 100%, 67%);
+        font-weight: 600;
+    }
+
+    .sub{
+        font-weight: 600;
+        font-size: 15px;
+        opacity: 0.5;
+    }
+
+    .row2{
+        background-color: hsl(39, 100%, 90%);
+        margin: 23px 0;
+        padding: 11px;
+        border: solid none;
+        border-radius: 6px;
+    }
+
+    .main2{
+        color: hsl(39, 100%, 56%);
+        font-weight: 600;
+        
+    }
+
+    .row3{
+        background-color:hsl(166, 100%, 95%);
+        margin: 23px 0;
+        padding: 11px;
+        border: solid none;
+        border-radius: 6px;
+    }
+
+    .main3{
+        color:hsl(166, 100%, 37%);
+        font-weight: 600; 
+    }
+
+    .row4{
+        background-color: hsl(234, 85%, 95%);
+        margin: 23px 0;
+        padding: 11px;
+        border: solid none;
+        border-radius: 6px;
+    }
+
+    .main4{
+        color:hsl(234, 85%, 45%);
+        font-weight: 600;
+    }
+
+    .button{
+        color: white;
+        width: 100%;
+        padding: 12px;
+        background-color: hsl(224, 30%, 27%);
+        border: none;
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .button:hover{
+        background-color:hsl(241, 81%, 54%);
+    }
+
+    .btn{
+        position:relative;
+        bottom: 410px;
+        left: 340px;
+        width: 223px;
+    }
+
+    .icon{
+        float: left;
+        margin-right: 10px;
+    }
+
+}
